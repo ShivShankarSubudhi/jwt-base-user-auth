@@ -1,0 +1,25 @@
+{
+  "name": "userPortal",
+  "version": "0.0.1",
+  "private": true,
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^2.0.0",
+    "bluebird": "^3.5.1",
+    "ejs": "*",
+    "express": "~3.2.6",
+    "file-type": "^6.2.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.2.1",
+    "mongojs": "^2.4.1",
+    "mongoose": "^5.0.14",
+    "node-mailjet": "^3.2.1",
+    "path": "^0.12.7",
+    "random-number": "0.0.9",
+    "read-chunk": "^2.1.0",
+    "request": "^2.81.0",
+    "sha256": "^0.2.0"
+  }
+}
