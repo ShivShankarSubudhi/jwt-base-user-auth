@@ -1,6 +1,6 @@
 module.exports = {
-  'secretKey': 'shivshankar',
-  "MJ_APIKEY_PUBLIC" : "06de9e8c7752a32a7dfcde1cd5ffd9e6",
-  "MJ_APIKEY_PRIVATE" : "07150057b718d3d93a229651f71c46d0",
+    'secretKey': 'shivshankar',
+    "MJ_APIKEY_PUBLIC": "b6d8f96deb5a1a8435c34f8c003bfd94",
+    "MJ_APIKEY_PRIVATE": "52b7d247bbc2f885eb8db7cec2d5ebe7",
 
 };

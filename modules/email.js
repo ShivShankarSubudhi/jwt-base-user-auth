@@ -13,7 +13,7 @@
              .request({
                  "Messages": [{
                      "From": {
-                         "Email": "shivshankarsubudhi@gmail.com",
+                         "Email": "shivshankar.somu@gmail.com",
                          "Name": "Shiv Shankar User Portal"
                      },
                      "To": [{
@@ -30,11 +30,13 @@
 
 
          request.then(function(response) {
+             console.log("response", response.body);
              var obj = {
                  msg: "Email Sent Successfully"
              };
              resolve(obj);
          }).catch(function(err) {
+             console.log("err", err);
              var toSendError = new Error('Error is Sending Email');
              toSendError.status = 400;
              toSendError.reason = 'Error is Sending Email';
